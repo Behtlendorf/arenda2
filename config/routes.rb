@@ -1,5 +1,5 @@
 Arenda::Application.routes.draw do
-  get "store/index"
+  match '/index', to: 'store#index', via: 'get'
   resources :products
 
   # The priority is based upon order of creation: first created -> highest priority.
