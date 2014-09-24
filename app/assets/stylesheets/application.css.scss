@@ -1,0 +1,260 @@
+
+*
+{
+margin:0px;
+padding:0px;
+
+}
+
+
+
+ 
+body{
+background-image: url('http://365psd.ru/images/backgrounds/bg-light-4859.png');
+font-family:'Andika', sans-serif;
+color:#b8a7a7;
+text-transform:uppercase;
+}
+
+
+
+#mobilebody
+{
+width: 1058px;
+height: 900px;
+background:#fff;
+margin:0 auto;
+position: relative;
+box-shadow: 0 0 3px rgba(0,0,0,0.5)
+}
+
+
+
+
+nav#menu {
+  padding-top: 120px; 
+  position: relative;
+  margin:0 auto;
+  width: 540px;
+  height: 30px;    
+
+
+ul {
+  list-style: none;
+  padding: 0 10px 0 10px;
+}
+
+ul li {
+ font: 16px Inder, 'Arial', 'sans-serif';
+ color: #000;
+ display:inline-block;  
+}
+
+ul li a {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #000;
+}
+
+ul li a:hover {
+  background-color: #00CED1;
+  color: #FFF;
+  -webkit-animation: showMenu 0.8s;
+     -moz-animation: showMenu 0.8s;
+          animation: showMenu 0.8s;
+}
+
+
+
+@-webkit-keyframes showMenu {
+  0% { opacity :0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes showMenu {
+  0% { opacity :0; }
+  100% { opacity:1; }
+}
+@keyframes showMenu {
+  0% { opacity :0; }
+  100% { opacity:1; }
+}
+ }
+
+/*line*/
+
+
+.line{
+  position: absolute;
+  margin:0.5% auto 0 5.7%; 
+  width:91%;
+  border-bottom: 2px #00CED1 solid;
+}
+
+/* SLIDER */
+
+
+
+.container{
+padding:20px 60px; 
+margin:0 auto;
+width: 720px;
+height: 560px;
+float:left;
+#slidy-container { 
+  overflow: hidden; margin: 0 auto;
+}
+} 
+
+/* Navigation */
+.button{
+  width: 205px;
+  height: 74px;
+  float: left;
+  position:relative;
+  margin:10px auto auto -55px;
+  
+
+
+
+
+.main > section {
+  margin:0 auto;
+  max-width: 205px;
+  width: 90%;
+  
+}
+
+.main > section h2 {
+  font-weight: 300;
+  color: #ccc;
+}
+
+.main > section button {
+  border: none;
+  height: 74px;
+  background: #00CED1;
+  color: #fff;
+  padding: 1.5em;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 0.8em;
+}
+
+.main > section button:hover {
+  background: #00CED1;
+}
+
+.main > section button.active {
+  background: #00CED1;
+}
+
+.main > section button.disabled {
+  background: #aaa;
+  pointer-events: none;
+}
+
+
+
+
+
+/* General styles for all menus */
+.cbp-spmenu {
+  background: #47a3da;
+  opacity:.7;
+  position: fixed;
+}
+
+.cbp-spmenu h3 {
+  color: #afdefa;
+  font-size: 1.9em;
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+  background: #0d77b6;
+}
+
+.cbp-spmenu a {
+  display: block;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.cbp-spmenu a:hover {
+  background: #258ecd;
+}
+
+.cbp-spmenu a:active {
+  background: white;
+  color: #47a3da;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+  width: 240px;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.cbp-spmenu-vertical a {
+  border-bottom: 1px solid #258ecd;
+  padding: 1em;
+}
+
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+  left: -240px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+  left: 0px;
+}
+
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+
+.cbp-spmenu-push-toleft {
+  left: -240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-height: 26.375em){
+
+  .cbp-spmenu-vertical {
+    font-size: 90%;
+    width: 190px;
+  }
+
+  .cbp-spmenu-left,
+  .cbp-spmenu-push-toleft {
+    left: -190px;
+  }
+}
+}
+
+/* Горячие предложения */
+
+  
