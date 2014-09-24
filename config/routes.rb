@@ -1,6 +1,6 @@
 Arenda::Application.routes.draw do
   match '/index', to: 'store#index', via: 'get'
-  resources :products
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -16,7 +16,7 @@ Arenda::Application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-      root to: 'store#index'
+      root to: 'store#index', as: 'store'
   # Example resource route with options:
   #   resources :products do
   #     member do
